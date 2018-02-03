@@ -19,10 +19,10 @@ public class SearchTweets {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 
 		cb.setDebugEnabled(true)
-		.setOAuthConsumerKey("ZsvNpBlaEHp6gEv4OarzvOk9k")
-		.setOAuthConsumerSecret("xf1cqLJb5alINyrzh3YbqE57VTjxn8NLCwAEZ3r0ocER4NA5oN")
-		.setOAuthAccessToken("3300968563-19zGnWR491v3UDKfUXbZMPMBX5dS7zNmff8n7xp")
-		.setOAuthAccessTokenSecret("hVRdrQF7WY4SvZLllRxGSdPCWtpklSUulrYRJFK7gPmQw");
+		.setOAuthConsumerKey("YOUR KEY GOES HERE")
+		.setOAuthConsumerSecret("YOUR SECRET KEY GOES HERE")
+		.setOAuthAccessToken("YOUR ACCESS TOKEN GOES HERE")
+		.setOAuthAccessTokenSecret("YOUR SECRET ACCESS TOKEN GOES HERE");
 
 		TwitterFactory tf = new TwitterFactory(cb.build());
 		twitter4j.Twitter twitter = tf.getInstance();
